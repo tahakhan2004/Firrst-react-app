@@ -1,0 +1,291 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+ /* overflow: hidden; */
+}
+.navbarr{
+  background: url('./back.avif');
+  background-size: 100% 100%;
+  height: 400px;
+  margin-top: 0px;
+  /* background-size: cover;  */
+}
+.burger{
+  background-color: white;
+  border: none;
+  float: right;
+  margin-left: auto;
+  
+}
+
+.navul{
+  display: flex;
+  justify-content: space-around;
+  /* padding: 10px; */
+  list-style:none;
+  width: 75%;
+  margin: auto;
+  color: white;
+}
+.navbarr ul li{
+  margin-top: 10px;
+  margin-right: 60px;
+  padding: 5px;
+}
+
+.navbarr ul li:hover{
+  /* background-color: gray; */
+  /* border-radius:5px ; */
+  /* padding: 2px; */
+  color: aquamarine;
+  cursor: pointer;
+}
+#cum{
+  background-color: lightgray;
+  color: black;
+  padding: 3px;
+  border-radius: 5px;
+  color: rgb(75, 127, 223);
+  /* text-shadow: 0px 1px 2px #61dafb; */
+  font-size: 16px;
+  
+}
+#cum:hover{
+  cursor: pointer;
+ 
+}
+.wit{
+  width: 25%;
+  margin-top: 9px;
+}
+.card-man{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  
+}
+.cardsss{
+  height: 300px;
+  width: 280px;
+  text-align: center;
+  border: none;
+}
+.cardcolor{
+  background-color: #282c34;
+  color: white;
+  
+}
+.bord{
+  border: none;
+  
+}
+.cardcolor h5{
+  font-size: 17px;
+}
+.cardcolor small{
+  font-size: 13px;
+}
+.cardsss h3{
+  font-size: 15px;
+  color: rgb(46, 205, 205);
+
+}
+.sech5{
+  margin-top: 23px;
+}
+.wit2{
+  width: 40%;
+}
+.sec1h5{
+  margin-top: 8px;
+}
+.wit4{
+  width: 50%;
+}
+.sec4h5{
+  margin-top: 18px;
+}
+.lino{
+  border: 1px solid white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 19px;
+  
+}
+.heig{
+  height: 250px;
+}
+.cardss{
+  height: 450px;
+  width: 250px;
+}
+.disp{
+  display: block;
+  margin-top: 10px;
+}
+.card-man2{
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 250px; */
+  width: 80%;
+  text-align: center;
+}
+.witx{
+  width:300px;
+  margin-top: 5px;
+}
+.witx2{
+  /* width: 500px; */
+  
+  width: 250px;
+}
+.txtp{
+  margin-top: 30px;
+}
+.high{
+  color: rgb(46, 205, 205);
+
+}
+.graph-car{
+  border: none;
+  /* margin-top: 10px; */
+  border-radius: 5px;
+}
+.foot-man{
+  background: #282c34;
+  /* height: 200px; */
+}
+.footer-flex{
+  display: flex;
+  /* background: rgb(250, 4, 4); */
+  margin-top: 12px;
+}
+.foot-img{
+  margin-right:12px ;
+  width: 30px;
+  height: 30px;
+  /* margin-top: 7px; */
+}
+.conti h1{
+  color: #c1c1c2;
+  margin-top: 0;
+font-size: 18px;
+margin-bottom: 0;
+}
+.conti h3{
+  color: #c1c1c2;
+  margin-top: 0;
+  font-size: 14px;
+}
+.conti input{
+  width: 95%;
+  background: #9d9fa0;
+  height: 30px;
+  margin-right: 5px;
+  border: none;
+}
+.conti p{
+  color: #c1c1c2;
+
+  width: 75%;
+}
+.colo{
+  color: rgb(3 148 220); 
+}
+/* .graph{
+  width: 500px;
+} */
+
+@media only screen and (max-width: 990px) {
+  .resp {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+
+
+}
+@media only screen and (max-width: 1094px) {
+  
+  .card-man2{
+    margin-top: 300px;
+    margin-left:auto ;
+    margin-right: auto;
+  }
+ 
+
+
+}
+@media only screen and (max-width: 534px) {
+  .card-man2{
+    margin-top: 900px;
+    margin-left:auto ;
+    margin-right: auto;
+  }
+  .witx{
+    width: 150px;
+  }
+  .witx2{
+    width: 150px;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .handle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 120px;
+  
+    
+  }
+  .displ{
+    display: none;
+  }
+
+
+
+}
+
+
+
+
+
